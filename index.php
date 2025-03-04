@@ -1,6 +1,6 @@
 <?php
 $get = $_GET['get'];
-$mpdUrl = $get;
+$mpdUrl = 'https://' . $get;
 
 $mpdheads = [
   'http' => [
